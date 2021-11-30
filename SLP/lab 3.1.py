@@ -23,4 +23,4 @@ else:
 optional_weight_min = 18.50 * (height ** 2)
 optional_weight_max = 24.99 * (height ** 2)
 
-print("Your normal weight interval is between {} and {}".format(optional_weight_min, optional_weight_max))
+print(f'Your normal weight interval is between {optional_weight_min} and {optional_weight_max}')
