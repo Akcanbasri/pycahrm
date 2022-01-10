@@ -80,8 +80,8 @@ class UserController:
 
 
 user_contr = UserController()
-#for i in range(0, 5):
-user_contr.add_user()
+for i in range(0, 5):
+    user_contr.add_user()
 
 user_contr.print_users()
 user_contr.save_user_to_file("users.txt")
